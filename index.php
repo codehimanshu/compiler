@@ -13,5 +13,8 @@
 		<input type="button" id="compile" value="Compile" name="compile">
 		<input type="button" id="run" value="Run" name="rum">
 	</form>
+	<pre style="max-width: 500px; border:2px solid Black;" id="result">
+	{result}
+	</pre>
 </body>
 </html>
