@@ -3,9 +3,9 @@
 
 ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); 
 
-$API_KEY = '1a5359d8b8712bab25d8a50d35d2a323a24e6cea'; /* add your client secret here for testing */
+$API_KEY = '856a3e481618e44697e683598ce8e99ee71c5fad'; /* add your client secret here for testing */
 $errors = [];
-extract($_POST);
+extract($_GET);
 
 if (empty($lang)) {
     $errors[] = 'you need to provide the "lang" parameter.';

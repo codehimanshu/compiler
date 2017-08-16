@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$("#compile").click(function(){
 		if($("#source").val().length!=0){
 			$.ajax({
-				type: 'POST',
+				type: 'GET',
 				url: 'post.php',
 				data: {
 					lang: $("#lang").val(),
