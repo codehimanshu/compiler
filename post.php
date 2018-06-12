@@ -3,7 +3,7 @@
 
 ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); 
 
-$API_KEY = '856a3e481618e44697e683598ce8e99ee71c5fad'; /* add your client secret here for testing */
+$API_KEY = '*************************'; /* add your client secret here for testing */
 $errors = [];
 extract($_GET);
 
